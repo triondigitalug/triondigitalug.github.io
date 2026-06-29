@@ -1039,7 +1039,7 @@ html[data-theme="dark"] .cta-band {
   border: 1px solid var(--border);
   border-radius: 999px;
   padding: 0.55rem 0.9rem;
-  background: rgba(255, 252, 247, 0.78);
+  background: var(--bg-elevated);
   color: var(--muted-strong);
   font-weight: 800;
 }
@@ -1047,9 +1047,9 @@ html[data-theme="dark"] .cta-band {
 .filter-btn.active,
 .filter-btn:hover,
 .filter-btn:focus-visible {
-  border-color: rgba(184, 92, 56, 0.42);
-  background: #f2dfc2;
-  color: #7a4a2e;
+  border-color: var(--border-strong);
+  background: var(--bg-soft);
+  color: var(--text);
   outline: none;
 }
 
