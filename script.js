@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "256000000000";
+const WHATSAPP_NUMBER = "256755203456";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=Hello%20Trion%20Digital%2C%20I%20would%20like%20to%20ask%20about%20your%20digital%20services.`;
 
 const initMenu = () => {
@@ -113,9 +113,9 @@ const initThemeToggle = () => {
   const THEME_KEY = "theme";
   const THEME_DARK = "dark";
   const THEME_LIGHT = "light";
-  const sunIcon = `<svg fill="currentColor" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12Zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM11 1h2v3h-2V1Zm11 10h3v2h-3v-2ZM11 20h2v3h-2v-3ZM3.54 4.95l1.41-1.41 2.12 2.12-1.41 1.41L3.54 4.95Zm15.51 15.51-1.41-1.41-2.12 2.12 1.41 1.41 2.12-2.12ZM2 11h3v2H2v-2Zm17.05 6.46-1.41 1.41-2.12-2.12 1.41-1.41 2.12 2.12ZM4.95 19.05l1.41 1.41 2.12-2.12-1.41-1.41-2.12 2.12Z"/></svg>`;
-  const moonIcon = `<svg fill="currentColor" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36A5.5 5.5 0 0 1 12 15.5 5.5 5.5 0 0 1 6.5 10c0-1.93 1-3.62 2.5-4.63A9 9 0 0 0 3 12a9 9 0 0 0 9-9Z"/></svg>`;
-
+  const sunIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg>`;
+  const moonIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg>`;
+  
   const applyTheme = (theme) => {
     document.documentElement.setAttribute("data-theme", theme);
     toggle.innerHTML = theme === THEME_DARK ? sunIcon : moonIcon;
