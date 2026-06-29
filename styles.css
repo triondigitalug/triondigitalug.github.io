@@ -751,7 +751,7 @@ h3 {
   display: grid;
   place-items: center;
   border-radius: 50%;
-  background: var(--bg-soft);
+  background: #f2dfc2;
   color: var(--muted-strong);
 }
 
