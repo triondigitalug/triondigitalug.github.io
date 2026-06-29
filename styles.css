@@ -566,7 +566,7 @@ h3 {
   justify-content: center;
   padding: 1rem;
   text-align: center;
-  color: #5f4331;
+  color: var(--muted-strong);
   font-weight: 800;
 }
 
@@ -751,7 +751,7 @@ h3 {
   display: grid;
   place-items: center;
   border-radius: 50%;
-  background: #f2dfc2;
+  background: var(--bg-soft);
   color: var(--muted-strong);
 }
 
